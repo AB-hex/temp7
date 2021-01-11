@@ -73,3 +73,4 @@ int grades_print_student(struct grades *grades, int id);
 int grades_print_all(struct grades *grades);
 
 #endif
+
