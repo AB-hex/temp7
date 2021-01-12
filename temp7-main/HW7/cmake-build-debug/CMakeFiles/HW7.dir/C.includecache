@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/grades.c
+string.h
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/string.h
+stdio.h
+-
+stdlib.h
+-
+d3dvec.inl
+-
+liblinked-list.so
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/liblinked-list.so
+grades.h
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/grades.h
+linked-list.h
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/linked-list.h
+
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/grades.h
+
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/liblinked-list.so
+
+E:/HW Technion Studies/semester 9/mamat/HW7/temp7-main/HW7/linked-list.h
+stddef.h
+-
+
