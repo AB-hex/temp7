@@ -1,13 +1,16 @@
+
 CC=gcc
 CFLAGS=-Wall -g
 CLINK=$(CC)
+OBJS=grades.o libgrades.so
+EXEC=libgrades.so
 
-prog.exe: linked-list.o main.o grades.o
-	$(CLINK) linked-list.o main.o -o prog.exe 
 
-linked-list.o: linked-list.h linked-list.c
-main.o: main.c linked-list.h
+libgrades.so: grades.o
+	$(CLINK) ~shared grades.o -o libgrades.so -llinked-list -L.
+
 grades.o: grades.h grades.c linked-list.h 
+	$(CC) $(CFLAGS) -c -fpic grades.c
 
 clean:
-	rm -f *.o *.exe
+	rm -rf *.o *.exe libgrades.so
